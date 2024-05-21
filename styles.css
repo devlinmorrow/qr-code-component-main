@@ -1,8 +1,27 @@
-.attribution {
-    font-size: 11px;
-    text-align: center;
+body {
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    font-size: 15px;
 }
 
-.attribution a {
-    color: hsl(228, 45%, 44%);
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+.card {
+    height: 497px;
+    width: 320px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 16px;
+}
+
+.qr-container {
+    background-color: hsl(218, 44%, 22%)
 }
