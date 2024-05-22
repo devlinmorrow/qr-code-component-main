@@ -2,6 +2,7 @@ body {
     background-color: hsl(212, 45%, 89%);
     height: 100vh;
     font-size: 15px;
+    font-family: Outfit;
 }
 
 main {
@@ -11,17 +12,34 @@ main {
     height: 100%;
 }
 
-h1 {
-    font-size: 22px;
-}
-
 .card {
     height: 497px;
     width: 320px;
     background-color: hsl(0, 0%, 100%);
     padding: 16px;
+    border-radius: 16px;
+    box-shadow: 10px 10px 50px #979797;
+
 }
 
-.qr-container {
-    background-color: hsl(218, 44%, 22%)
+.text-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+    margin-block: 24px 40px;
 }
+
+img {
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+p {
+    padding: 0 16px;
+    color: hsl(220, 15%, 55%);
+}
+
